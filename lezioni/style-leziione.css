@@ -1,0 +1,694 @@
+/*cercare basta fare ctr + F*/
+html {
+    scroll-behavior: smooth;/*per i link da piu style e professionalita*/
+    scroll-padding-top: 310px; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+#site-header {
+    border-bottom: 4px solid hsl(45, 90%, 60%);       
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+body {
+    margin: 0px;
+    background-color: #f4f1ec;
+    color: #2b2b2b;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+
+}
+
+
+/*per limagine profilo rotondozza*/
+.avatar {
+    width: 200px;
+    height: 200px;
+    border: 5px solid hsl(45, 90%, 60%);
+    border-radius: 50%;
+    float: none;
+    margin: 0 10px 12px 0;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* sezione competenze */
+.skills-list li:nth-child(odd) {
+    background-color: white;
+
+}
+
+.skills-list li:nth-child(even) {
+    background-color: #0d006e86;
+}
+
+.skills-list li:first-child {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: hsl(220, 60%, 30%);
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+    color: #2b2b2b;
+    background-color: #fbf8f1;
+    border: 1px solid #d6cfbf;
+    border-radius: 6px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #ffffff;
+    border-color: hsl(220, 60%, 30%);
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a39b87;
+    font-style: italic;
+}
+
+
+    
+
+
+
+
+
+
+
+#consenso{
+    width: 12px;
+}
+
+
+
+/*sfondo*/
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #f4f1ec;
+}
+
+
+
+
+
+
+
+
+/*contorno settori eriquadro generale dei settori*/
+main section {
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid #e6e0d3;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    
+
+}
+
+/* e il cazzetto davanti chi sono e competenze ecc*/
+main section h2::before {
+    content: '\2756';
+    color: hsl(45, 90%, 50%);
+}
+
+
+
+
+
+
+
+
+
+
+#site-header {
+    padding: 60px 20px 40px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+
+#site-header nav a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+
+
+.button {
+    background-color:#0d006efa;
+    color: #ffffff;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+button:hover {
+    background-color: #000000 !important;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+h1 {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.847);
+    font-family: 'Playfair Display', Georgia, serif;
+    margin: 0px 
+
+}
+
+
+
+/*FULL STAK developer scritta sotto mario rossi*/
+.tagline {
+    font-style: italic;
+    color: #f0e7c8;
+    margin: 0px 0px 60px 0px;
+
+}
+
+#navigazione a {
+    color: #000000;
+    font-weight: bold;
+    line-height: 3;
+    background-color:rgba(253, 255, 253, 0.324);
+    border-color:  rgb(46, 0, 121) ;
+    text-decoration: none;
+    
+
+}
+
+#navigazione a:hover {
+    background-color:  hsl(45, 90%, 60%);
+    color: white;
+}
+
+#color{
+    color: hsl(220, 60%, 25%);;
+}
+h2,h3 {
+    font-size: 50px;
+    color: hsl(220, 60%, 25%);
+    text-align: start;
+    font-family: 'Playfair Display', Georgia, serif;
+    margin:0%;
+}
+
+#chi-sono {
+    background-color: #ffffff;
+    text-align: justify;
+    margin-top: -85px;
+
+}
+
+#chi-sono p:first-of-type {
+    font-size: 1.2rem;
+    font-style: italic;
+    
+}
+
+
+
+
+/*bottoe di invio-->input:not([type="checkbox"]), fatto con cloude chiedi a lui*/
+textarea {
+    width: 60%;
+}
+
+button {
+
+    background-color: rgb(46, 0, 121);
+    color: #ffffff;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: #150072;
+    color: white;
+}
+
+
+
+.prove {
+    border: 2px solid black;
+    margin: 20px;
+    height: 100px;
+}
+
+
+.prove:nth-of-type(4) {
+    color: #000000;
+    background-color: aqua;
+}
+
+.prove:nth-of-type(3) {
+    color: #000000;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+/*imaggine */
+#site-header {
+    background-color: #ffffff;
+    background-image:
+        linear-gradient(rgba(20, 25, 60, 0.55), rgba(20, 25, 60, 0.55)),/*mi sono fatto aiutare da cloud se non capisci fattelo rispiegare*/
+        url("../img/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+#competenze {
+    clear: both;
+    
+    height: 850px;
+}
+
+
+
+
+
+/* questa e la M grande */
+#chi-sono p:first-of-type::first-letter {
+    font-size: 6rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color:  #150072;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+
+
+
+
+
+
+/*footer rettangolo*/
+.div-per-footer {
+    width: 100%;
+    height: 50%;
+    background-color:#060032;
+    margin: 0%;
+    color: white;
+    padding: 15px;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+.material-symbols-outlined {
+    font-size: 20px;
+    top: 6px;
+    position: relative;
+
+}
+
+
+
+
+/*competenze*/
+.barra {
+    background-color: #ece6d8;
+    border-radius: 999px;
+    height: 10px;
+    width: 100%;
+}
+
+.barra-livello {
+    background-color: hsl(45, 90%, 50%);
+    height: 100%;
+    border-radius: 999px;
+}
+
+
+table{
+    width: 100%;
+}
+
+
+td{
+    width: 500px;
+    height: 70px;
+
+}
+
+.barra-GitHup{
+    background-color: hsl(45, 90%, 50%);
+    height: 100%;
+    border-radius: 999px;
+    
+
+}
+
+
+td i {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+.cool {
+    background-color: hsla(45, 90%, 50%, 0.188);           /* sfondo beige dell'intestazione */
+    color: hsl(220, 60%, 25%);           /* testo blu navy */
+    text-align: left;
+    padding: 12px;
+}
+
+
+
+
+.progetto {
+    position: relative;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+
+/*pari e dispari devo sistemare i vari div mi sa */
+.project:nth-of-type(odd) {
+    background-color:  hsla(45, 90%, 50%, 0.188);
+    border: #727070;
+    border-radius: 2.5%;
+}
+
+.project:nth-of-type(even) {
+    background-color: #ffffff;
+    
+    border-left: 4px solid hsl(45, 90%, 50%);
+}
+
+.progetto-sfondo{
+    position: relative;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border-left: 4px solid hsl(220, 60%, 30%);  /* ricordati questo colora la barra a sinistra*/
+    background-color: #faf6ee;  
+}
+
+
+
+
+.progetto-sfondo h3{
+    margin: 0 0 8px;
+}
+
+
+
+
+#progetti{
+    height: 900px;
+}
+
+
+.link-progetto i {
+    margin-right: 6px;
+}
+
+.titoli-progetti{
+    font-size: 1.3em;
+
+}
+
+.progetto-sfondo:first-of-type::after {
+    content: "NEW";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 8px;
+    margin-left: 12px;
+    background-color: #7b0000;
+    color: #ffffff;
+    border-radius: 0px 4px 0px 4px;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+.social{
+    gap: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.icona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.hh2{
+    border:0%;
+}
+
+#paragrafo{
+    margin: 0%;
+}
+
+.contenitore {
+  display: flex;      
+  align-items: center; 
+  gap: 8px;            
+}
+
+
+.paragrafo-esperienza{
+    margin:2% 0 5% 0;
+}
+
+.e-se-torna{
+    background-color:  hsla(45, 90%, 50%, 0.113);
+    height: 50%;
+}
+
+/*fino a qui per il footer*/
+
+tr{
+    border-bottom: 1px solid #f0f0f0;
+}
+table {
+  width: 100%;
+  
+  border-collapse: collapse; 
+}
+
+
+
+
+.chi-sono-p{
+    max-width: 900px;
+    line-height: 1.6;  /* Opzionale: rende l'interlinea più ariosa come in foto */
+}
+/*
+
+
+    <footer id="site-footer">
+        <div class="div-per-footer">
+            <p>Copyright 2026 - Mario Rossi</p>
+        </div>
+    </footer>
+*/
+
+
+@media screen and (min-width: 768px) {
+    .table-wrapper{
+        overflow-x: auto;
+        
+    }
+    
+    h1{
+       font-size: clamp(1.5rem, 4vw, 3rem);
+    }
+    li{
+        display: inline-block;
+        text-align: center;
+
+    }
+    main {
+        padding: 40px 20px;
+    }
+    main section {
+        padding: 32px;
+    }
+    
+    
+    form input, 
+    form select, 
+    form textarea{
+        width: 100%;
+    }
+    form button {
+        width: auto;
+    }
+    form #consenso{
+        width: auto;
+    }
+
+    table {
+        min-width: 480px;
+    }
+       #site-header {
+        padding: 60px 20px 40px;
+    }
+    .avatar {
+        float: left;           
+        display: inline;       
+        margin: 0px 0px 0px 0px;  
+    }
+
+
+}
+
+
+
+.back-to-top{
+    display:inline-block;
+    position: fixed;
+    background-image: url("https://static.vecteezy.com/ti/vettori-gratis/p1/26631253-freccia-su-icona-vettore-simbolo-design-illustrazione-vettoriale.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;/*centra limagine */
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    
+    background-color: rgb(0, 0, 121);
+    color: rgb(122, 0, 0);
+    z-index: 50;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    width: 100%;
+
+}
+.overlay[hidden] {
+    display: none;
+}
+
+.modal{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);/*serve a centrare 
+                                    in modo matematicamente 
+                                    perfetto un elemento sullo schermo (o dentro un contenitore).*/
+    background-color: #fff;
+    border-radius: 8px;
+    
+    
+}
